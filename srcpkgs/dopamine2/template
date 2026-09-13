@@ -1,0 +1,12 @@
+pkgname=dopamine2
+version=2.0.10
+revision=1
+short_desc="Dopamine 2"
+maintainer="Shrek Medan"
+license="Freeware"
+homepage="https://github.com/digimezzo/"
+distfiles="https://github.com/digimezzo/dopamine-windows/releases/download/v${version}.4000/Dopamine.${version}.Release.msi"
+installer_type="msi"
+installer_flavor=""
+arch="x86_64"
+main_exe="Dopamine2.msi"
