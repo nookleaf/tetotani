@@ -1,0 +1,12 @@
+pkgname=foxitold
+version=2.2
+revision=1
+short_desc="Foxit Reader 2.2"
+maintainer="Shrek Medan"
+license="Freeware"
+homepage="https://www.foxit.com/"
+distfiles="https://raw.githubusercontent.com/nookleaf/TetoDriverInstaller/refs/heads/main/FoxitPDFReader-2.2.exe"
+installer_type="exe"
+installer_flavor=""
+arch="x86_64"
+main_exe="FoxitPDFReader-2.2.exe"
