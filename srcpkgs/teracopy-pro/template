@@ -1,0 +1,12 @@
+pkgname=teracopy-pro
+version=3.17.0.0
+revision=1
+short_desc="TeraCopy Pro file transfer utility"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Shareware"
+homepage="https://www.codesector.com/teracopy"
+distfiles="https://pasted.sh/file/hMav.tani"
+installer_type="exe"
+installer_flavor='/S'
+arch="x86_64"
+main_exe="TeraCopy.exe"

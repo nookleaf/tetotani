@@ -1,0 +1,12 @@
+pkgname=poweriso
+version=9.4
+revision=1
+short_desc="PowerISO image processing tool"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Shareware"
+homepage="https://www.poweriso.com"
+distfiles="https://pasted.sh/file/k6gL.tani"
+installer_type="exe"
+installer_flavor='/S'
+arch="x86_64"
+main_exe="piso.exe"

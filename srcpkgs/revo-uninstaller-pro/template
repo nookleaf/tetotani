@@ -1,0 +1,12 @@
+pkgname=revo-uninstaller-pro
+version=5.5.0
+revision=1
+short_desc="Revo Uninstaller Pro"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Shareware"
+homepage="https://www.revouninstaller.com"
+distfiles="https://pasted.sh/file/SnjP.tani"
+installer_type="exe"
+installer_flavor='/S /I'
+arch="x86_64"
+main_exe="RevoUninPro.exe"

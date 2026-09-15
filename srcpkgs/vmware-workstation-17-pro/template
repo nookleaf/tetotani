@@ -1,0 +1,12 @@
+pkgname=vmware-workstation-17-pro
+version=17.6.4.24832109
+revision=1
+short_desc="VMware Workstation 17 Pro"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.vmware.com"
+distfiles="https://pasted.sh/file/e9fe.tani"
+installer_type="exe"
+installer_flavor='/S'
+arch="x86_64"
+main_exe="vmware.exe"

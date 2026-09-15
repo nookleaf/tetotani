@@ -1,0 +1,12 @@
+pkgname=adobe-photoshop-cs6
+version=13.0.1.3
+revision=1
+short_desc="Adobe Photoshop CS6"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.adobe.com"
+distfiles="https://pasted.sh/file/anrU.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Photoshop.exe"

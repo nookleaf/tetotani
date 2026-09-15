@@ -1,0 +1,12 @@
+pkgname=driver-booster
+version=13.5.1.400
+revision=1
+short_desc="IObit Driver Booster"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Freeware"
+homepage="https://www.iobit.com/en/driver-booster.php"
+distfiles="https://pasted.sh/file/WKYy.tani"
+installer_type="exe"
+installer_flavor='/VERYSILENT /NORESTART /TASKS="desktopicon"'
+arch="x86_64"
+main_exe="DriverBooster.exe"

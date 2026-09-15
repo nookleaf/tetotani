@@ -1,0 +1,12 @@
+pkgname=mendeley-desktop
+version=1.19.8
+revision=1
+short_desc="Mendeley Desktop reference manager"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Freeware"
+homepage="https://www.mendeley.com"
+distfiles="https://pasted.sh/file/ipIH.tani"
+installer_type="exe"
+installer_flavor='/S'
+arch="x86_64"
+main_exe="MendeleyDesktop.exe"

@@ -1,0 +1,12 @@
+pkgname=hard-disk-sentinel-pro
+version=6.40.13782
+revision=1
+short_desc="Hard Disk Sentinel Pro"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Shareware"
+homepage="https://www.hdsentinel.com"
+distfiles="https://pasted.sh/file/JCF4.tani"
+installer_type="exe"
+installer_flavor='/S /I'
+arch="x86_64"
+main_exe="HDSentinel.exe"

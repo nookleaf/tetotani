@@ -1,0 +1,12 @@
+pkgname=vmware-workstation-pro-26h1
+version=26.0.0.25388281
+revision=1
+short_desc="VMware Workstation Pro 26H1"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.vmware.com"
+distfiles="https://pasted.sh/file/we6b.tani"
+installer_type="exe"
+installer_flavor='/S'
+arch="x86_64"
+main_exe="vmware.exe"
