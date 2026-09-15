@@ -31,7 +31,7 @@ jobs:
               # commit pertama, gak ada parent — anggap semua template sebagai "berubah"
               DIFF_RANGE="--root HEAD"
             fi
-            CHANGED=$(git diff --name-only $DIFF_RANGE -- 'srcpkgs/*/template' \
+            CHANGED=$(git diff --diff-filter=d --name-only $DIFF_RANGE -- 'srcpkgs/*/template' \
               | sed -E 's#srcpkgs/([^/]+)/template#\1#' | sort -u | jq -R -s -c 'split("\n")[:-1]')
             if [ "$CHANGED" = "[]" ]; then
               # fallback terakhir: list semua srcpkgs yang ada
@@ -64,8 +64,12 @@ jobs:
 
       - name: Build package
         run: |
-          chmod +x tetopkg-src.sh
-          ./tetopkg-src.sh "${{ matrix.pkg }}"
+          if [ -f "srcpkgs/${{ matrix.pkg }}/template" ]; then
+            chmod +x tetopkg-src.sh
+            ./tetopkg-src.sh "${{ matrix.pkg }}"
+          else
+            echo "::notice ::Template srcpkgs/${{ matrix.pkg }}/template was deleted; skipping build step."
+          fi
 
       - name: Upload to R2
         env:
