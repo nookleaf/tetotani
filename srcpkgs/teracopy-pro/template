@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/TeraCopy.Pro.v3.17.0.0.tani"
 installer_type="exe"
 installer_flavor='/S'
 arch="x86_64"
-main_exe="TeraCopy.exe"
+main_exe="TeraCopy.Pro.v3.17.0.0.exe"

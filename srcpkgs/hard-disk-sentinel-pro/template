@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Hard.Disk.Sentinel.Pro.v6.40.13782.t
 installer_type="exe"
 installer_flavor='/S /I'
 arch="x86_64"
-main_exe="HDSentinel.exe"
+main_exe="Hard.Disk.Sentinel.Pro.v6.40.13782.exe"

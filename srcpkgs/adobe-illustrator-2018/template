@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.IllustratorCC-2018.22.1.0_x64.
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Illustrator.exe"
+main_exe="Adobe.IllustratorCC-2018.22.1.0_x64.exe"

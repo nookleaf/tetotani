@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Subway.Surfers.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Subway_Surfers.exe"
+main_exe="Subway.Surfers.exe"

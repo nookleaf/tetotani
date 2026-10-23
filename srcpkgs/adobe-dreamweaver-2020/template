@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Dreamweaver-2020.20.2.0.15263.
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Dreamweaver.exe"
+main_exe="Adobe.Dreamweaver-2020.20.2.0.15263.exe"

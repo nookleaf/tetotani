@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/MAGIX.SOUND.FORGE.Pro.v18.0.0.21.tan
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Forge180.exe"
+main_exe="MAGIX.SOUND.FORGE.Pro.v18.0.0.21.exe"

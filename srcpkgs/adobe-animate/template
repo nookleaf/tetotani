@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.AnimateCC-2019.19.2.1.408.tani
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Animate.exe"
+main_exe="Adobe.AnimateCC-2019.19.2.1.408.exe"

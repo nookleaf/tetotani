@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Character.Animator-2025.25.6.0
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Character Animator.exe"
+main_exe="Adobe.Character.Animator-2025.25.6.0.95.exe"

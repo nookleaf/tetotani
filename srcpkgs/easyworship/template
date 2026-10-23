@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/EasyWorship-7.4.0.7.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="EasyWorship.exe"
+main_exe="EasyWorship-7.4.0.7.exe"

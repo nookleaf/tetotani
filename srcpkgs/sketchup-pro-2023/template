@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/SketchUp.Pro.v23.1.340.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="SketchUp.exe"
+main_exe="SketchUp.Pro.v23.1.340.exe"

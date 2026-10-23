@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/CorelDRAWGS2026-27.1.0.129.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="CorelDRW.exe"
+main_exe="CorelDRAWGS2026-27.1.0.129.exe"

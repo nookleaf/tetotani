@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/CorelDRAWGS2020-22.2.0.532.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="CorelDRW.exe"
+main_exe="CorelDRAWGS2020-22.2.0.532.exe"

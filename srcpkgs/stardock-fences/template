@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Stardock.Fences-6.46.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Fences.exe"
+main_exe="Stardock.Fences-6.46.exe"

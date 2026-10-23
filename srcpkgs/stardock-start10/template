@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Stardock_Start10-1.97.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Start10.exe"
+main_exe="Stardock_Start10-1.97.exe"

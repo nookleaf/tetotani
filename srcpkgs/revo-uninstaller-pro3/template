@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Revo.Uninstaller.Pro.v3.2.1.tani"
 installer_type="exe"
 installer_flavor='/S /I'
 arch="x86_64"
-main_exe="RevoUninPro.exe"
+main_exe="Revo.Uninstaller.Pro.v3.2.1.exe"

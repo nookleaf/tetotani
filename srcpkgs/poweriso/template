@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/PowerISO.v9.4.tani"
 installer_type="exe"
 installer_flavor='/S'
 arch="x86_64"
-main_exe="PowerISO.exe"
+main_exe="PowerISO.v9.4.exe"

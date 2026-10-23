@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/EaseUS.Partition.Master.v12.10.tani"
 installer_type="exe"
 installer_flavor='/S /Q'
 arch="x86_64"
-main_exe="Main.exe"
+main_exe="EaseUS.Partition.Master.v12.10.exe"

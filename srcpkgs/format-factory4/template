@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Format.Factory-4.10.5.0.tani"
 installer_type="exe"
 installer_flavor='/VERYSILENT /I /EN'
 arch="x86_64"
-main_exe="FormatFactory.exe"
+main_exe="Format.Factory-4.10.5.0.exe"

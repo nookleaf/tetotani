@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Photoshop.2022.v23.5.5.1103.ta
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Photoshop.exe"
+main_exe="Adobe.Photoshop.2022.v23.5.5.1103.exe"

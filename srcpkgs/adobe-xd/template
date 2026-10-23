@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.XD.v61.0.12.1.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="XD.exe"
+main_exe="Adobe.XD.v61.0.12.1.exe"

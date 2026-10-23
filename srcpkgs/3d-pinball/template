@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/3DPinball.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="PINBALL.EXE"
+main_exe="3DPinball.exe"

@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/MediBang.Paint.Pro-29.1.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="MediBangPaintPro.exe"
+main_exe="MediBang.Paint.Pro-29.1.exe"

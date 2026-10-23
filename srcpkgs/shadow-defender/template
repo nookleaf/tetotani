@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Shadow.Defender-1.5.0.726.tani"
 installer_type="exe"
 installer_flavor='/VERYSILENT /NORESTART'
 arch="x86_64"
-main_exe="Defender.exe"
+main_exe="Shadow.Defender-1.5.0.726.exe"

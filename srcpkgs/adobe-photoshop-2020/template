@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Photoshop-2020.21.2.12.215.tan
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Photoshop.exe"
+main_exe="Adobe.Photoshop-2020.21.2.12.215.exe"

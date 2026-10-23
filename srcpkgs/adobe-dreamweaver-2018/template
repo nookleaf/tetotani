@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.DreamweaverCC-2018.18.2.0.1016
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Dreamweaver.exe"
+main_exe="Adobe.DreamweaverCC-2018.18.2.0.10165_x64.exe"

@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/AOMEI.Partition.Assistant.v10.11.0.t
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="PartAssist.exe"
+main_exe="AOMEI.Partition.Assistant.v10.11.0.exe"

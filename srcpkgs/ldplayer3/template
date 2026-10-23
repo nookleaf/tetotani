@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/LDPlayer_v3.122.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="dnplayer.exe"
+main_exe="LDPlayer_v3.122.exe"

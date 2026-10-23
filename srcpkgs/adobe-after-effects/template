@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.After.Effects-2024.24.0.3.2.ta
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="AfterFX.exe"
+main_exe="Adobe.After.Effects-2024.24.0.3.2.exe"

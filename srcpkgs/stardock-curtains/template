@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Stardock.Curtains-1.19.1.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Curtains.exe"
+main_exe="Stardock.Curtains-1.19.1.exe"

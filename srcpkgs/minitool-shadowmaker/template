@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/MiniTool.ShadowMaker-3.6.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="ShadowMaker.exe"
+main_exe="MiniTool.ShadowMaker-3.6.exe"

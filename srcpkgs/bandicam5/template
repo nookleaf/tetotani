@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Bandicam.v5.1.1.1837.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="bdcam.exe"
+main_exe="Bandicam.v5.1.1.1837.exe"

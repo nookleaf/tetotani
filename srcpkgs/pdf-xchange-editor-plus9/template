@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/PDF-XChange.Editor.Plus.v9.5.365.0.t
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="PDFXEdit.exe"
+main_exe="PDF-XChange.Editor.Plus.v9.5.365.0.exe"

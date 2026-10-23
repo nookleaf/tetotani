@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/IObit.Unlocker-1.3.0.12.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="IObitUnlocker.exe"
+main_exe="IObit.Unlocker-1.3.0.12.exe"

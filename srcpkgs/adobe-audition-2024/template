@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Audition-2024.24.0.3.3.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Adobe Audition.exe"
+main_exe="Adobe.Audition-2024.24.0.3.3.exe"

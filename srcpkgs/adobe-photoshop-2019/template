@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.PhotoshopCC-2019.20.0.10.120.t
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Photoshop.exe"
+main_exe="Adobe.PhotoshopCC-2019.20.0.10.120.exe"

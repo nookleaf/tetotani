@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Dreamweaver-2021.21.8.0.15898.
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Dreamweaver.exe"
+main_exe="Adobe.Dreamweaver-2021.21.8.0.15898.exe"

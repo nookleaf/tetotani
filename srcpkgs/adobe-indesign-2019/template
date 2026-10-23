@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.InDesign-2019.14.0.3.433.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="InDesign.exe"
+main_exe="Adobe.InDesign-2019.14.0.3.433.exe"

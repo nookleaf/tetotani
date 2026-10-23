@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.InCopy-2025.20.5.0.48.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="InCopy.exe"
+main_exe="Adobe.InCopy-2025.20.5.0.48.exe"

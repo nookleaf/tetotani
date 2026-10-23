@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/MiniTool.Partition.Wizard-13.6.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="partitionwizard.exe"
+main_exe="MiniTool.Partition.Wizard-13.6.exe"

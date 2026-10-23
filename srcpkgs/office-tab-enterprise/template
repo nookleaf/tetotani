@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Office.Tab.Enterprise.v14.00.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="OfficeTabCenter.exe"
+main_exe="Office.Tab.Enterprise.v14.00.exe"

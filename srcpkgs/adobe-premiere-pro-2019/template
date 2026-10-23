@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Premiere.Pro-2019.13.1.5.47.ta
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Adobe Premiere Pro.exe"
+main_exe="Adobe.Premiere.Pro-2019.13.1.5.47.exe"

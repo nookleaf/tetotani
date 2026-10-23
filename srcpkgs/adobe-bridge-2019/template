@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Bridge-2019.9.1.0.338.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Bridge.exe"
+main_exe="Adobe.Bridge-2019.9.1.0.338.exe"

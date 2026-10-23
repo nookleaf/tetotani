@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Prelude-2019.8.1.1.39.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Prelude.exe"
+main_exe="Adobe.Prelude-2019.8.1.1.39.exe"

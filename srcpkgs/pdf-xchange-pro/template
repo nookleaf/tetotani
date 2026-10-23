@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/PDF-XChange.PRO.v11.0.1.0.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="PDFXEdit.exe"
+main_exe="PDF-XChange.PRO.v11.0.1.0.exe"

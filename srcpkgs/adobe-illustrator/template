@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Illustrator-2020.24.3.0.569.ta
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="Illustrator.exe"
+main_exe="Adobe.Illustrator-2020.24.3.0.569.exe"

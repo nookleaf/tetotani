@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/MendeleyDesktop-1.19.8.tani"
 installer_type="exe"
 installer_flavor='/S'
 arch="x86_64"
-main_exe="MendeleyDesktop.exe"
+main_exe="MendeleyDesktop-1.19.8.exe"

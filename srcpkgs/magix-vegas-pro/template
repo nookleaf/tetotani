@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/MAGIX.Vegas.Pro-20.0.411.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="vegas200.exe"
+main_exe="MAGIX.Vegas.Pro-20.0.411.exe"

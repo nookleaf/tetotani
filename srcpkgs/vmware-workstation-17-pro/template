@@ -1,12 +1,12 @@
 pkgname=vmware-workstation-17-pro
-version=17.6.4.24832109
+version=17.5.0.22583795
 revision=1
 short_desc="VMware Workstation 17 Pro"
 maintainer="Iqbal Rifai <yukifag@proton.me>"
 license="Commercial"
 homepage="https://www.vmware.com"
-distfiles="https://pasted.sh/file/e9fe.tani"
+distfiles="https://pub.moedev.eu.org/Petani/VMware.Workstation.17.Pro.v17.5.0.22583795.tani"
 installer_type="exe"
 installer_flavor='/S'
 arch="x86_64"
-main_exe="vmware.exe"
+main_exe="VMware.Workstation.17.Pro.v17.5.0.22583795.exe"

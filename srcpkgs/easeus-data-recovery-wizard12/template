@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/EaseUS.Data.Recovery.Wizard-12.0.0.t
 installer_type="exe"
 installer_flavor='/VERYSILENT /I /EN'
 arch="x86_64"
-main_exe="DRW.exe"
+main_exe="EaseUS.Data.Recovery.Wizard-12.0.0.exe"

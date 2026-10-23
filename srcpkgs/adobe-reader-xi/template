@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Adobe.Reader.XI.v11.0.23.tani"
 installer_type="exe"
 installer_flavor='/S /E'
 arch="x86_64"
-main_exe="AcroRd32.exe"
+main_exe="Adobe.Reader.XI.v11.0.23.exe"

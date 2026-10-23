@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/Nero2015-BROM-Express-16.0.24000.tan
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="NeroExpress.exe"
+main_exe="Nero2015-BROM-Express-16.0.24000.exe"

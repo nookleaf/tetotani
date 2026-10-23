@@ -9,4 +9,4 @@ distfiles="https://pub.moedev.eu.org/Petani/MiniTool.Power.Data.Recovery-12.9.ta
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="PowerDataRecovery.exe"
+main_exe="MiniTool.Power.Data.Recovery-12.9.exe"
