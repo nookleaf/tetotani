@@ -53,7 +53,9 @@ if [ "$TYPE" = "zip" ]; then
     fi
 else
     echo ":: Exe installer payload detected, placing installer in buildroot..."
-    cp payload.bin buildroot/installer.exe
+    EXE_TARGET="${main_exe:-installer.exe}"
+    cp payload.bin "buildroot/${EXE_TARGET}"
+    [ "$EXE_TARGET" != "installer.exe" ] && cp payload.bin buildroot/installer.exe
 fi
 
 # 2. Validasi hasil extract/buildroot

@@ -4,11 +4,14 @@ on:
   push:
     paths:
       - "srcpkgs/**/template"
+      - ".github/workflows/build.yml"
+      - "tetopkg-src.sh"
   workflow_dispatch:
     inputs:
       pkgname:
-        description: "Build satu paket spesifik (kosongkan untuk build semua yang berubah)"
+        description: "Build spesifik paket, atau 'all' untuk build semua paket"
         required: false
+        default: "all"
 
 jobs:
   detect:
@@ -22,7 +25,11 @@ jobs:
 
       - id: detect
         run: |
-          if [ -n "${{ github.event.inputs.pkgname }}" ]; then
+          if [ "${{ github.event.inputs.pkgname }}" = "all" ] || git log -1 --pretty=%B | grep -qi -E '\[build[- ]all\]|\[all\]'; then
+            echo "::notice ::Building all packages in repository"
+            CHANGED=$(find srcpkgs -maxdepth 1 -mindepth 1 -type d -exec basename {} \; | sort -u | jq -R -s -c 'split("\n")[:-1]')
+            echo "packages=${CHANGED}" >> "$GITHUB_OUTPUT"
+          elif [ -n "${{ github.event.inputs.pkgname }}" ]; then
             echo "packages=[\"${{ github.event.inputs.pkgname }}\"]" >> "$GITHUB_OUTPUT"
           else
             if git rev-parse HEAD~1 >/dev/null 2>&1; then
@@ -35,7 +42,7 @@ jobs:
               | sed -E 's#srcpkgs/([^/]+)/template#\1#' | sort -u | jq -R -s -c 'split("\n")[:-1]')
             if [ "$CHANGED" = "[]" ]; then
               # fallback terakhir: list semua srcpkgs yang ada
-              CHANGED=$(find srcpkgs -maxdepth 1 -mindepth 1 -type d -exec basename {} \; | jq -R -s -c 'split("\n")[:-1]')
+              CHANGED=$(find srcpkgs -maxdepth 1 -mindepth 1 -type d -exec basename {} \; | sort -u | jq -R -s -c 'split("\n")[:-1]')
             fi
             echo "packages=${CHANGED}" >> "$GITHUB_OUTPUT"
           fi
@@ -47,6 +54,7 @@ jobs:
     permissions:
       contents: write
     strategy:
+      fail-fast: false
       matrix:
         pkg: ${{ fromJson(needs.detect.outputs.packages) }}
     steps:
@@ -84,6 +92,7 @@ jobs:
 
   reindex:
     needs: build
+    if: always() && !cancelled()
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
