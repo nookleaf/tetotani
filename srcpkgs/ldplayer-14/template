@@ -1,0 +1,12 @@
+pkgname=ldplayer-14
+version=14.0.26
+revision=1
+short_desc="LDPlayer 14 Android Emulator"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.ldplayer.net"
+distfiles="https://pub.moedev.eu.org/Petani/LDPlayer14-14.0.26.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="LDPlayer14-14.0.26.exe"

@@ -1,7 +1,7 @@
 pkgname=sketchup-pro-2023
 version=23.1.340
 revision=1
-short_desc="SketchUp Pro 3D Modeling"
+short_desc="SketchUp Pro 2023 3D Modeling"
 maintainer="Iqbal Rifai <yukifag@proton.me>"
 license="Commercial"
 homepage="https://www.sketchup.com"

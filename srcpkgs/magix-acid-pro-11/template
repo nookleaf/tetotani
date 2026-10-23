@@ -1,0 +1,12 @@
+pkgname=magix-acid-pro-11
+version=11.0.0.1434
+revision=1
+short_desc="MAGIX ACID Pro 11 digital audio workstation"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.magix.com"
+distfiles="https://pub.moedev.eu.org/Petani/MAGIX.ACID.Pro.v11.0.0.1434.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="MAGIX.ACID.Pro.v11.0.0.1434.exe"

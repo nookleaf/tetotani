@@ -1,0 +1,12 @@
+pkgname=easyworship-7
+version=7.4.0.7
+revision=1
+short_desc="EasyWorship 7 Presentation Software"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.easyworship.com"
+distfiles="https://pub.moedev.eu.org/Petani/EasyWorship-7.4.0.7.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="EasyWorship-7.4.0.7.exe"

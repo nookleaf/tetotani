@@ -1,0 +1,12 @@
+pkgname=magix-sound-forge-pro-18
+version=18.0.0.21
+revision=1
+short_desc="MAGIX SOUND FORGE Pro 18 audio editor"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.magix.com"
+distfiles="https://pub.moedev.eu.org/Petani/MAGIX.SOUND.FORGE.Pro.v18.0.0.21.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="MAGIX.SOUND.FORGE.Pro.v18.0.0.21.exe"

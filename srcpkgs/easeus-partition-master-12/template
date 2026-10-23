@@ -1,0 +1,12 @@
+pkgname=easeus-partition-master-12
+version=12.10
+revision=1
+short_desc="EaseUS Partition Master 12"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.easeus.com"
+distfiles="https://pub.moedev.eu.org/Petani/EaseUS.Partition.Master.v12.10.tani"
+installer_type="exe"
+installer_flavor='/S /Q'
+arch="x86_64"
+main_exe="EaseUS.Partition.Master.v12.10.exe"

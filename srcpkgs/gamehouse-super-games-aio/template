@@ -7,6 +7,6 @@ license="Commercial"
 homepage="https://pub.moedev.eu.org/Petani"
 distfiles="https://pub.moedev.eu.org/Petani/64.GameHouse.Super.Games.AIO-79208609-FD44-4865-AE2B-784FDF31212C.tani"
 installer_type="exe"
-installer_flavor=''
+installer_flavor='/PASSWORD=79208609-FD44-4865-AE2B-784FDF31212C'
 arch="x86_64"
 main_exe="64.GameHouse.Super.Games.AIO-79208609-FD44-4865-AE2B-784FDF31212C.exe"

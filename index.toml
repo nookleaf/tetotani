@@ -2,7 +2,7 @@
 name = "tanirepo"
 description = "Petani Community Repository"
 url = "https://pub.moedev.eu.org/Petani/"
-generated = 1792730994
+generated = 1792763484
 
 [[packages]]
 
@@ -15,12 +15,39 @@ desc = "3D Pinball for Windows - Space Cadet"
 url = "https://microsoft.com"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "3DPinball.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/3DPinball.tani"
+installer_flavor = ""
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "adobe-acrobat-pro-2025"
+version = "2025.001.21184"
+pkgrel = 1
+arch = "x86_64"
+desc = "Adobe Acrobat Pro 2025"
+url = "https://www.adobe.com/acrobat"
+license = "Commercial"
+size = 0
+builddate = 1792763484
+packager = "tetotani"
+product_code = ""
+main_exe = "Adobe.Acrobat.Pro.v2025.001.21184.exe"
+installer_type = "exe"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Acrobat.Pro.v2025.001.21184.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -42,66 +69,12 @@ desc = "Adobe Acrobat Pro 2026"
 url = "https://www.adobe.com/acrobat"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Acrobat.Pro.v2026.001.21691x64.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Acrobat.Pro.v2026.001.21691x64.tani"
-installer_flavor = ""
-source = "tanirepo"
-
-[packages.deps]
-requires = []
-optional = []
-conflicts = []
-replaces = []
-provides = []
-
-[[packages]]
-
-[packages.package]
-name = "adobe-acrobat-pro-v2025-001-21184"
-version = "1.0.0"
-pkgrel = 1
-arch = "x86_64"
-desc = "Adobe.Acrobat.Pro.v2025.001.21184"
-url = "https://pub.moedev.eu.org/Petani"
-license = "Commercial"
-size = 0
-builddate = 1792730994
-packager = "tetotani"
-product_code = ""
-main_exe = "Adobe.Acrobat.Pro.v2025.001.21184.exe"
-installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Acrobat.Pro.v2025.001.21184.tani"
-installer_flavor = ""
-source = "tanirepo"
-
-[packages.deps]
-requires = []
-optional = []
-conflicts = []
-replaces = []
-provides = []
-
-[[packages]]
-
-[packages.package]
-name = "adobe-after-effects"
-version = "24.0.3.2"
-pkgrel = 1
-arch = "x86_64"
-desc = "Adobe After Effects 2024"
-url = "https://www.adobe.com/products/aftereffects"
-license = "Commercial"
-size = 0
-builddate = 1792730994
-packager = "tetotani"
-product_code = ""
-main_exe = "Adobe.After.Effects-2024.24.0.3.2.exe"
-installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.After.Effects-2024.24.0.3.2.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -123,7 +96,7 @@ desc = "Adobe After Effects 2019"
 url = "https://www.adobe.com/products/aftereffects"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.After.Effects-2019.16.1.3.5.exe"
@@ -142,20 +115,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-animate"
-version = "19.2.1.408"
+name = "adobe-after-effects-2024"
+version = "24.0.3.2"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe Animate CC"
-url = "https://www.adobe.com/products/animate"
+desc = "Adobe After Effects 2024"
+url = "https://www.adobe.com/products/aftereffects"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.AnimateCC-2019.19.2.1.408.exe"
+main_exe = "Adobe.After.Effects-2024.24.0.3.2.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.AnimateCC-2019.19.2.1.408.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.After.Effects-2024.24.0.3.2.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -169,20 +142,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-audition"
-version = "25.6.4.2"
+name = "adobe-animate-2019"
+version = "19.2.1.408"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe Audition 2025"
-url = "https://www.adobe.com/products/audition"
+desc = "Adobe Animate CC 2019"
+url = "https://www.adobe.com/products/animate"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.Audition-2025.25.6.4.2.exe"
+main_exe = "Adobe.AnimateCC-2019.19.2.1.408.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Audition-2025.25.6.4.2.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.AnimateCC-2019.19.2.1.408.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -204,7 +177,7 @@ desc = "Adobe Audition 2019"
 url = "https://www.adobe.com/products/audition"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Audition-2019.12.1.5.3.exe"
@@ -231,7 +204,7 @@ desc = "Adobe Audition 2024"
 url = "https://www.adobe.com/products/audition"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Audition-2024.24.0.3.3.exe"
@@ -250,20 +223,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-bridge"
-version = "15.1.4.9"
+name = "adobe-audition-2025"
+version = "25.6.4.2"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe Bridge 2025"
-url = "https://www.adobe.com/products/bridge"
+desc = "Adobe Audition 2025"
+url = "https://www.adobe.com/products/audition"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.Bridge-2025.15.1.4.9.exe"
+main_exe = "Adobe.Audition-2025.25.6.4.2.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Bridge-2025.15.1.4.9.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Audition-2025.25.6.4.2.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -285,7 +258,7 @@ desc = "Adobe Bridge CC 2018"
 url = "https://www.adobe.com/products/bridge"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.BridgeCC-2018.8.1.0.383_x64.exe"
@@ -312,7 +285,7 @@ desc = "Adobe Bridge 2019"
 url = "https://www.adobe.com/products/bridge"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Bridge-2019.9.1.0.338.exe"
@@ -331,20 +304,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-character-animator"
-version = "25.6.0.95"
+name = "adobe-bridge-2025"
+version = "15.1.4.9"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe Character Animator 2025"
-url = "https://www.adobe.com/products/character-animator"
+desc = "Adobe Bridge 2025"
+url = "https://www.adobe.com/products/bridge"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.Character.Animator-2025.25.6.0.95.exe"
+main_exe = "Adobe.Bridge-2025.15.1.4.9.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Character.Animator-2025.25.6.0.95.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Bridge-2025.15.1.4.9.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -366,7 +339,7 @@ desc = "Adobe Character Animator CC 2019"
 url = "https://www.adobe.com/products/character-animator"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Character.AnimatorCC-2019.2.1.1.7.exe"
@@ -385,20 +358,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-dreamweaver"
-version = "21.8.0.15898"
+name = "adobe-character-animator-2025"
+version = "25.6.0.95"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe Dreamweaver 2021"
-url = "https://www.adobe.com/products/dreamweaver"
+desc = "Adobe Character Animator 2025"
+url = "https://www.adobe.com/products/character-animator"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.Dreamweaver-2021.21.8.0.15898.exe"
+main_exe = "Adobe.Character.Animator-2025.25.6.0.95.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Dreamweaver-2021.21.8.0.15898.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Character.Animator-2025.25.6.0.95.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -420,7 +393,7 @@ desc = "Adobe Dreamweaver CC 2018"
 url = "https://www.adobe.com/products/dreamweaver"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.DreamweaverCC-2018.18.2.0.10165_x64.exe"
@@ -447,7 +420,7 @@ desc = "Adobe Dreamweaver 2020"
 url = "https://www.adobe.com/products/dreamweaver"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Dreamweaver-2020.20.2.0.15263.exe"
@@ -466,20 +439,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-illustrator"
-version = "24.3.0.569"
+name = "adobe-dreamweaver-2021"
+version = "21.8.0.15898"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe Illustrator 2020"
-url = "https://www.adobe.com/products/illustrator"
+desc = "Adobe Dreamweaver 2021"
+url = "https://www.adobe.com/products/dreamweaver"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.Illustrator-2020.24.3.0.569.exe"
+main_exe = "Adobe.Dreamweaver-2021.21.8.0.15898.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Illustrator-2020.24.3.0.569.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Dreamweaver-2021.21.8.0.15898.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -501,7 +474,7 @@ desc = "Adobe Illustrator CC 2018"
 url = "https://www.adobe.com/products/illustrator"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.IllustratorCC-2018.22.1.0_x64.exe"
@@ -520,20 +493,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-incopy"
-version = "20.5.0.48"
+name = "adobe-illustrator-2020"
+version = "24.3.0.569"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe InCopy 2025"
-url = "https://www.adobe.com/products/incopy"
+desc = "Adobe Illustrator 2020"
+url = "https://www.adobe.com/products/illustrator"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.InCopy-2025.20.5.0.48.exe"
+main_exe = "Adobe.Illustrator-2020.24.3.0.569.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.InCopy-2025.20.5.0.48.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Illustrator-2020.24.3.0.569.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -547,20 +520,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-indesign"
+name = "adobe-incopy-2025"
 version = "20.5.0.48"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe InDesign 2025"
-url = "https://www.adobe.com/products/indesign"
+desc = "Adobe InCopy 2025"
+url = "https://www.adobe.com/products/incopy"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.InDesign-2025.20.5.0.48.exe"
+main_exe = "Adobe.InCopy-2025.20.5.0.48.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.InDesign-2025.20.5.0.48.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.InCopy-2025.20.5.0.48.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -582,7 +555,7 @@ desc = "Adobe InDesign 2019"
 url = "https://www.adobe.com/products/indesign"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.InDesign-2019.14.0.3.433.exe"
@@ -601,20 +574,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-lightroom-classic"
-version = "14.5.1.1"
+name = "adobe-indesign-2025"
+version = "20.5.0.48"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe Photoshop Lightroom Classic 14"
-url = "https://www.adobe.com/products/photoshop-lightroom-classic"
+desc = "Adobe InDesign 2025"
+url = "https://www.adobe.com/products/indesign"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.Photoshop.Lightroom.Classic-14.5.1.1.exe"
+main_exe = "Adobe.InDesign-2025.20.5.0.48.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Photoshop.Lightroom.Classic-14.5.1.1.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.InDesign-2025.20.5.0.48.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -636,7 +609,7 @@ desc = "Adobe Photoshop Lightroom Classic 10"
 url = "https://www.adobe.com/products/photoshop-lightroom-classic"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Photoshop.Lightroom.Classic-10.0.0.10.exe"
@@ -663,12 +636,39 @@ desc = "Adobe Photoshop Lightroom Classic 14"
 url = "https://www.adobe.com/products/photoshop-lightroom-classic"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Photoshop.Lightroom.Classic-14.0.1.1.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Photoshop.Lightroom.Classic-14.0.1.1.tani"
+installer_flavor = ""
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "adobe-lightroom-classic-14.5"
+version = "14.5.1.1"
+pkgrel = 1
+arch = "x86_64"
+desc = "Adobe Photoshop Lightroom Classic 14.5 (AVX2)"
+url = "https://www.adobe.com/products/photoshop-lightroom-classic"
+license = "Commercial"
+size = 0
+builddate = 1792763484
+packager = "tetotani"
+product_code = ""
+main_exe = "Adobe.Photoshop.Lightroom.Classic-14.5.1.1.exe"
+installer_type = "exe"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Photoshop.Lightroom.Classic-14.5.1.1.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -690,39 +690,12 @@ desc = "Adobe Photoshop Lightroom Classic CC 8"
 url = "https://www.adobe.com/products/photoshop-lightroom-classic"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Photoshop.Lightroom.ClassicCC-8.4.1.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Photoshop.Lightroom.ClassicCC-8.4.1.tani"
-installer_flavor = ""
-source = "tanirepo"
-
-[packages.deps]
-requires = []
-optional = []
-conflicts = []
-replaces = []
-provides = []
-
-[[packages]]
-
-[packages.package]
-name = "adobe-media-encoder"
-version = "25.6.4.4"
-pkgrel = 1
-arch = "x86_64"
-desc = "Adobe Media Encoder 2025"
-url = "https://www.adobe.com/products/media-encoder"
-license = "Commercial"
-size = 0
-builddate = 1792730994
-packager = "tetotani"
-product_code = ""
-main_exe = "Adobe.Media.Encoder-2025.25.6.4.4.exe"
-installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Media.Encoder-2025.25.6.4.4.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -744,7 +717,7 @@ desc = "Adobe Media Encoder 2019"
 url = "https://www.adobe.com/products/media-encoder"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Media.Encoder-2019.13.1.5.35.exe"
@@ -771,7 +744,7 @@ desc = "Adobe Media Encoder 2024"
 url = "https://www.adobe.com/products/media-encoder"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Media.Encoder-2024.24.0.3.2.exe"
@@ -790,20 +763,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-photoshop"
-version = "23.5.5.1103"
+name = "adobe-media-encoder-2025"
+version = "25.6.4.4"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe Photoshop 2022"
-url = "https://www.adobe.com/products/photoshop"
+desc = "Adobe Media Encoder 2025"
+url = "https://www.adobe.com/products/media-encoder"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.Photoshop.2022.v23.5.5.1103.exe"
+main_exe = "Adobe.Media.Encoder-2025.25.6.4.4.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Photoshop.2022.v23.5.5.1103.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Media.Encoder-2025.25.6.4.4.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -825,7 +798,7 @@ desc = "Adobe Photoshop CC 2018"
 url = "https://www.adobe.com/products/photoshop"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.PhotoshopCC-2018.19.1.6.5940_x64.exe"
@@ -852,7 +825,7 @@ desc = "Adobe Photoshop CC 2019"
 url = "https://www.adobe.com/products/photoshop"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.PhotoshopCC-2019.20.0.10.120.exe"
@@ -879,12 +852,39 @@ desc = "Adobe Photoshop 2020"
 url = "https://www.adobe.com/products/photoshop"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Photoshop-2020.21.2.12.215.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Photoshop-2020.21.2.12.215.tani"
+installer_flavor = ""
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "adobe-photoshop-2022"
+version = "23.5.5.1103"
+pkgrel = 1
+arch = "x86_64"
+desc = "Adobe Photoshop 2022"
+url = "https://www.adobe.com/products/photoshop"
+license = "Commercial"
+size = 0
+builddate = 1792763484
+packager = "tetotani"
+product_code = ""
+main_exe = "Adobe.Photoshop.2022.v23.5.5.1103.exe"
+installer_type = "exe"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Photoshop.2022.v23.5.5.1103.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -906,39 +906,12 @@ desc = "Adobe Photoshop CS6"
 url = "https://www.adobe.com/products/photoshop"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.PhotoshopCS6-13.0.1.3.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Adobe.PhotoshopCS6-13.0.1.3.tani"
-installer_flavor = ""
-source = "tanirepo"
-
-[packages.deps]
-requires = []
-optional = []
-conflicts = []
-replaces = []
-provides = []
-
-[[packages]]
-
-[packages.package]
-name = "adobe-prelude"
-version = "22.6.0.6"
-pkgrel = 1
-arch = "x86_64"
-desc = "Adobe Prelude 2022"
-url = "https://www.adobe.com/products/prelude"
-license = "Commercial"
-size = 0
-builddate = 1792730994
-packager = "tetotani"
-product_code = ""
-main_exe = "Adobe.Prelude-2022.22.6.0.6.exe"
-installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Prelude-2022.22.6.0.6.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -960,7 +933,7 @@ desc = "Adobe Prelude 2019"
 url = "https://www.adobe.com/products/prelude"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Prelude-2019.8.1.1.39.exe"
@@ -979,20 +952,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "adobe-premiere-pro"
-version = "24.0.3.2"
+name = "adobe-prelude-2022"
+version = "22.6.0.6"
 pkgrel = 1
 arch = "x86_64"
-desc = "Adobe Premiere Pro 2024"
-url = "https://www.adobe.com/products/premiere"
+desc = "Adobe Prelude 2022"
+url = "https://www.adobe.com/products/prelude"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Adobe.Premiere.Pro-2024.24.0.3.2.exe"
+main_exe = "Adobe.Prelude-2022.22.6.0.6.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Premiere.Pro-2024.24.0.3.2.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Prelude-2022.22.6.0.6.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -1014,12 +987,39 @@ desc = "Adobe Premiere Pro 2019"
 url = "https://www.adobe.com/products/premiere"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Premiere.Pro-2019.13.1.5.47.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Premiere.Pro-2019.13.1.5.47.tani"
+installer_flavor = ""
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "adobe-premiere-pro-2024"
+version = "24.0.3.2"
+pkgrel = 1
+arch = "x86_64"
+desc = "Adobe Premiere Pro 2024"
+url = "https://www.adobe.com/products/premiere"
+license = "Commercial"
+size = 0
+builddate = 1792763484
+packager = "tetotani"
+product_code = ""
+main_exe = "Adobe.Premiere.Pro-2024.24.0.3.2.exe"
+installer_type = "exe"
+installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Premiere.Pro-2024.24.0.3.2.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -1041,13 +1041,13 @@ desc = "Adobe Reader XI"
 url = "https://www.adobe.com/reader"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.Reader.XI.v11.0.23.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Adobe.Reader.XI.v11.0.23.tani"
-installer_flavor = ""
+installer_flavor = "/S /E"
 source = "tanirepo"
 
 [packages.deps]
@@ -1068,7 +1068,7 @@ desc = "Adobe XD"
 url = "https://www.adobe.com/products/xd"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Adobe.XD.v61.0.12.1.exe"
@@ -1095,7 +1095,7 @@ desc = "Affinity Studio Photo & Designer Suite"
 url = "https://affinity.serif.com"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Affinity.Studio-3.2.3.4646.exe"
@@ -1122,7 +1122,7 @@ desc = "AOMEI Partition Assistant"
 url = "https://www.diskpart.com"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "AOMEI.Partition.Assistant.v10.11.0.exe"
@@ -1141,42 +1141,15 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "bandicam"
-version = "8.3.1.2537"
-pkgrel = 1
-arch = "x86_64"
-desc = "Bandicam Screen Recorder"
-url = "https://www.bandicam.com"
-license = "Commercial"
-size = 0
-builddate = 1792730994
-packager = "tetotani"
-product_code = ""
-main_exe = "Bandicam.v8.3.1.2537.exe"
-installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Bandicam.v8.3.1.2537.tani"
-installer_flavor = ""
-source = "tanirepo"
-
-[packages.deps]
-requires = []
-optional = []
-conflicts = []
-replaces = []
-provides = []
-
-[[packages]]
-
-[packages.package]
-name = "bandicam5"
+name = "bandicam-5"
 version = "5.1.1.1837"
 pkgrel = 1
 arch = "x86_64"
-desc = "Bandicam Screen Recorder"
+desc = "Bandicam Screen Recorder 5"
 url = "https://www.bandicam.com"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Bandicam.v5.1.1.1837.exe"
@@ -1195,15 +1168,42 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "boris-fx-vegas-pro"
+name = "bandicam-8"
+version = "8.3.1.2537"
+pkgrel = 1
+arch = "x86_64"
+desc = "Bandicam Screen Recorder 8"
+url = "https://www.bandicam.com"
+license = "Commercial"
+size = 0
+builddate = 1792763484
+packager = "tetotani"
+product_code = ""
+main_exe = "Bandicam.v8.3.1.2537.exe"
+installer_type = "exe"
+installer_url = "https://pub.moedev.eu.org/Petani/Bandicam.v8.3.1.2537.tani"
+installer_flavor = ""
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "boris-fx-vegas-pro-2026"
 version = "2026.0.0.143"
 pkgrel = 1
 arch = "x86_64"
-desc = "Boris FX Vegas Pro Effects & Plugins"
+desc = "Boris FX Vegas Pro 2026 Effects & Plugins"
 url = "https://borisfx.com"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Boris.FX.Vegas.Pro.v2026.0.0.143.exe"
@@ -1222,21 +1222,21 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "coreldraw"
-version = "27.1.0.129"
+name = "careueyes"
+version = "2.6.1.0"
 pkgrel = 1
 arch = "x86_64"
-desc = "CorelDRAW Graphics Suite 2026"
-url = "https://www.coreldraw.com"
-license = "Commercial"
+desc = "CareUEyes blue light filter and eye protection"
+url = "https://careueyes.com"
+license = "Shareware"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "CorelDRAWGS2026-27.1.0.129.exe"
+main_exe = "CareUEyes.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/CorelDRAWGS2026-27.1.0.129.tani"
-installer_flavor = ""
+installer_url = "https://pasted.sh/file/SK0q.tani"
+installer_flavor = "/VERYSILENT"
 source = "tanirepo"
 
 [packages.deps]
@@ -1257,12 +1257,66 @@ desc = "CorelDRAW Graphics Suite 2020"
 url = "https://www.coreldraw.com"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "CorelDRAWGS2020-22.2.0.532.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/CorelDRAWGS2020-22.2.0.532.tani"
+installer_flavor = ""
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "coreldraw-2026"
+version = "27.1.0.129"
+pkgrel = 1
+arch = "x86_64"
+desc = "CorelDRAW Graphics Suite 2026"
+url = "https://www.coreldraw.com"
+license = "Commercial"
+size = 0
+builddate = 1792763484
+packager = "tetotani"
+product_code = ""
+main_exe = "CorelDRAWGS2026-27.1.0.129.exe"
+installer_type = "exe"
+installer_url = "https://pub.moedev.eu.org/Petani/CorelDRAWGS2026-27.1.0.129.tani"
+installer_flavor = ""
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "dolby-e-ac-3"
+version = "1.0.0"
+pkgrel = 1
+arch = "x86_64"
+desc = "Dolby E-AC-3 Audio Codec"
+url = "https://www.dolby.com"
+license = "Freeware"
+size = 0
+builddate = 1792763484
+packager = "tetotani"
+product_code = ""
+main_exe = "DolbyEAC3.exe"
+installer_type = "exe"
+installer_url = "https://pasted.sh/file/ubak.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -1284,13 +1338,13 @@ desc = "IObit Driver Booster Pro"
 url = "https://www.iobit.com/driver-booster.php"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Driver.Booster-13.5.1.400.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Driver.Booster-13.5.1.400.tani"
-installer_flavor = ""
+installer_flavor = "/VERYSILENT /NORESTART /TASKS=desktopicon"
 source = "tanirepo"
 
 [packages.deps]
@@ -1311,7 +1365,7 @@ desc = "Duplicate Cleaner Pro"
 url = "https://www.duplicatecleaner.com"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Duplicate.Cleaner.Pro-5.27.0.exe"
@@ -1330,15 +1384,42 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "easeus-data-recovery-wizard"
-version = "16.5.0"
+name = "easeus-data-recovery-wizard-12"
+version = "12.0.0"
 pkgrel = 1
 arch = "x86_64"
-desc = "EaseUS Data Recovery Wizard"
+desc = "EaseUS Data Recovery Wizard 12"
 url = "https://www.easeus.com"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
+packager = "tetotani"
+product_code = ""
+main_exe = "EaseUS.Data.Recovery.Wizard-12.0.0.exe"
+installer_type = "exe"
+installer_url = "https://pub.moedev.eu.org/Petani/EaseUS.Data.Recovery.Wizard-12.0.0.tani"
+installer_flavor = "/VERYSILENT /I /EN"
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "easeus-data-recovery-wizard-16"
+version = "16.5.0"
+pkgrel = 1
+arch = "x86_64"
+desc = "EaseUS Data Recovery Wizard 16"
+url = "https://www.easeus.com"
+license = "Commercial"
+size = 0
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "EaseUS.Data.Recovery.Wizard-16.5.0.exe"
@@ -1357,75 +1438,21 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "easeus-data-recovery-wizard12"
-version = "12.0.0"
-pkgrel = 1
-arch = "x86_64"
-desc = "EaseUS Data Recovery Wizard"
-url = "https://www.easeus.com"
-license = "Commercial"
-size = 0
-builddate = 1792730994
-packager = "tetotani"
-product_code = ""
-main_exe = "EaseUS.Data.Recovery.Wizard-12.0.0.exe"
-installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/EaseUS.Data.Recovery.Wizard-12.0.0.tani"
-installer_flavor = ""
-source = "tanirepo"
-
-[packages.deps]
-requires = []
-optional = []
-conflicts = []
-replaces = []
-provides = []
-
-[[packages]]
-
-[packages.package]
-name = "easeus-partition-master"
-version = "16.0"
-pkgrel = 1
-arch = "x86_64"
-desc = "EaseUS Partition Master"
-url = "https://www.easeus.com"
-license = "Commercial"
-size = 0
-builddate = 1792730994
-packager = "tetotani"
-product_code = ""
-main_exe = "EaseUS.Partition.Master-16.0.exe"
-installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/EaseUS.Partition.Master-16.0.tani"
-installer_flavor = ""
-source = "tanirepo"
-
-[packages.deps]
-requires = []
-optional = []
-conflicts = []
-replaces = []
-provides = []
-
-[[packages]]
-
-[packages.package]
-name = "easeus-partition-master12"
+name = "easeus-partition-master-12"
 version = "12.10"
 pkgrel = 1
 arch = "x86_64"
-desc = "EaseUS Partition Master"
+desc = "EaseUS Partition Master 12"
 url = "https://www.easeus.com"
 license = "Commercial"
 size = 0
-builddate = 1792730994
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "EaseUS.Partition.Master.v12.10.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/EaseUS.Partition.Master.v12.10.tani"
-installer_flavor = ""
+installer_flavor = "/S /Q"
 source = "tanirepo"
 
 [packages.deps]
@@ -1438,21 +1465,21 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "easyworship"
-version = "7.4.0.7"
+name = "easeus-partition-master-16"
+version = "16.0"
 pkgrel = 1
 arch = "x86_64"
-desc = "EasyWorship Presentation Software"
-url = "https://www.easyworship.com"
+desc = "EaseUS Partition Master 16"
+url = "https://www.easeus.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "EasyWorship-7.4.0.7.exe"
+main_exe = "EaseUS.Partition.Master-16.0.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/EasyWorship-7.4.0.7.tani"
-installer_flavor = ""
+installer_url = "https://pub.moedev.eu.org/Petani/EaseUS.Partition.Master-16.0.tani"
+installer_flavor = "/VERYSILENT"
 source = "tanirepo"
 
 [packages.deps]
@@ -1473,7 +1500,7 @@ desc = "EasyWorship 2009"
 url = "https://www.easyworship.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "EasyWorship2009.exe"
@@ -1492,20 +1519,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "format-factory"
-version = "5.12.2.0"
+name = "easyworship-7"
+version = "7.4.0.7"
 pkgrel = 1
 arch = "x86_64"
-desc = "Format Factory Media Converter"
-url = "http://www.pcfreetime.com"
+desc = "EasyWorship 7 Presentation Software"
+url = "https://www.easyworship.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
-main_exe = "Format.Factory-5.12.2.0.exe"
+main_exe = "EasyWorship-7.4.0.7.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Format.Factory-5.12.2.0.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/EasyWorship-7.4.0.7.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -1519,21 +1546,48 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "format-factory4"
+name = "format-factory-4"
 version = "4.10.5.0"
 pkgrel = 1
 arch = "x86_64"
-desc = "Format Factory Media Converter"
+desc = "Format Factory 4 Media Converter"
 url = "http://www.pcfreetime.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Format.Factory-4.10.5.0.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Format.Factory-4.10.5.0.tani"
-installer_flavor = ""
+installer_flavor = "/VERYSILENT /I /EN"
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "format-factory-5"
+version = "5.12.2.0"
+pkgrel = 1
+arch = "x86_64"
+desc = "Format Factory 5 Media Converter"
+url = "http://www.pcfreetime.com"
+license = "Commercial"
+size = 0
+builddate = 1792763484
+packager = "tetotani"
+product_code = ""
+main_exe = "Format.Factory-5.12.2.0.exe"
+installer_type = "exe"
+installer_url = "https://pub.moedev.eu.org/Petani/Format.Factory-5.12.2.0.tani"
+installer_flavor = "/VERYSILENT /I /EN"
 source = "tanirepo"
 
 [packages.deps]
@@ -1554,7 +1608,7 @@ desc = "Foxit PDF Editor Pro"
 url = "https://www.foxit.com/pdf-editor"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "FoxitPDFEditor.Pro-13.2.0.23874.exe"
@@ -1581,13 +1635,13 @@ desc = "64 GameHouse Super Games All-In-One"
 url = "https://pub.moedev.eu.org/Petani"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "64.GameHouse.Super.Games.AIO-79208609-FD44-4865-AE2B-784FDF31212C.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/64.GameHouse.Super.Games.AIO-79208609-FD44-4865-AE2B-784FDF31212C.tani"
-installer_flavor = ""
+installer_flavor = "/PASSWORD=79208609-FD44-4865-AE2B-784FDF31212C"
 source = "tanirepo"
 
 [packages.deps]
@@ -1608,13 +1662,40 @@ desc = "Hard Disk Sentinel Pro HDD/SSD monitoring"
 url = "https://www.hdsentinel.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763484
 packager = "tetotani"
 product_code = ""
 main_exe = "Hard.Disk.Sentinel.Pro.v6.40.13782.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Hard.Disk.Sentinel.Pro.v6.40.13782.tani"
-installer_flavor = ""
+installer_flavor = "/S /I"
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "internet-download-manager"
+version = "6.43.10"
+pkgrel = 1
+arch = "x86_64"
+desc = "Internet Download Manager"
+url = "https://www.internetdownloadmanager.com"
+license = "Shareware"
+size = 0
+builddate = 1792763485
+packager = "tetotani"
+product_code = ""
+main_exe = "IDMan.exe"
+installer_type = "exe"
+installer_url = "https://pasted.sh/file/pnRH.tani"
+installer_flavor = "/VERYSILENT"
 source = "tanirepo"
 
 [packages.deps]
@@ -1635,7 +1716,7 @@ desc = "IObit Uninstaller Pro"
 url = "https://www.iobit.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "IObit.Uninstaller-15.5.0.11.exe"
@@ -1662,7 +1743,7 @@ desc = "IObit Unlocker file unlock utility"
 url = "https://www.iobit.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "IObit.Unlocker-1.3.0.12.exe"
@@ -1689,7 +1770,7 @@ desc = "COWON jetAudio Plus VX"
 url = "https://www.jetaudio.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "jetAudio-8.1.12.22010.exe"
@@ -1708,7 +1789,7 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "ldplayer14"
+name = "ldplayer-14"
 version = "14.0.26"
 pkgrel = 1
 arch = "x86_64"
@@ -1716,7 +1797,7 @@ desc = "LDPlayer 14 Android Emulator"
 url = "https://www.ldplayer.net"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "LDPlayer14-14.0.26.exe"
@@ -1735,15 +1816,15 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "ldplayer3"
+name = "ldplayer-3"
 version = "3.122"
 pkgrel = 1
 arch = "x86_64"
-desc = "LDPlayer Android Emulator 3"
+desc = "LDPlayer 3 Android Emulator"
 url = "https://www.ldplayer.net"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "LDPlayer_v3.122.exe"
@@ -1762,7 +1843,7 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "ldplayer5"
+name = "ldplayer-5"
 version = "5.0.82"
 pkgrel = 1
 arch = "x86_64"
@@ -1770,7 +1851,7 @@ desc = "LDPlayer 5 64-bit Android Emulator"
 url = "https://www.ldplayer.net"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "LDPlayer5.64.-v5.0.82.exe"
@@ -1789,7 +1870,7 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "ldplayer9"
+name = "ldplayer-9"
 version = "9.5.36.0"
 pkgrel = 1
 arch = "x86_64"
@@ -1797,7 +1878,7 @@ desc = "LDPlayer 9 Android Emulator"
 url = "https://www.ldplayer.net"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "LDPlayer9-v9.5.36.0.exe"
@@ -1816,15 +1897,15 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "magix-acid-pro"
+name = "magix-acid-pro-11"
 version = "11.0.0.1434"
 pkgrel = 1
 arch = "x86_64"
-desc = "MAGIX ACID Pro digital audio workstation"
+desc = "MAGIX ACID Pro 11 digital audio workstation"
 url = "https://www.magix.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "MAGIX.ACID.Pro.v11.0.0.1434.exe"
@@ -1843,15 +1924,15 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "magix-sound-forge-pro"
+name = "magix-sound-forge-pro-18"
 version = "18.0.0.21"
 pkgrel = 1
 arch = "x86_64"
-desc = "MAGIX SOUND FORGE Pro audio editor"
+desc = "MAGIX SOUND FORGE Pro 18 audio editor"
 url = "https://www.magix.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "MAGIX.SOUND.FORGE.Pro.v18.0.0.21.exe"
@@ -1870,20 +1951,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "magix-vegas-pro"
-version = "20.0.411"
+name = "magix-vegas-pro-16"
+version = "16.0.307"
 pkgrel = 1
 arch = "x86_64"
-desc = "MAGIX Vegas Pro video editor"
+desc = "MAGIX Vegas Pro 16 video editor"
 url = "https://www.vegascreativesoftware.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
-main_exe = "MAGIX.Vegas.Pro-20.0.411.exe"
+main_exe = "MAGIX.Vegas.Pro.v16.0.307.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/MAGIX.Vegas.Pro-20.0.411.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/MAGIX.Vegas.Pro.v16.0.307.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -1897,20 +1978,20 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "magix-vegas-pro16"
-version = "16.0.307"
+name = "magix-vegas-pro-20"
+version = "20.0.411"
 pkgrel = 1
 arch = "x86_64"
-desc = "MAGIX Vegas Pro video editor"
+desc = "MAGIX Vegas Pro 20 video editor"
 url = "https://www.vegascreativesoftware.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
-main_exe = "MAGIX.Vegas.Pro.v16.0.307.exe"
+main_exe = "MAGIX.Vegas.Pro-20.0.411.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/MAGIX.Vegas.Pro.v16.0.307.tani"
+installer_url = "https://pub.moedev.eu.org/Petani/MAGIX.Vegas.Pro-20.0.411.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -1932,7 +2013,7 @@ desc = "MediBang Paint Pro digital painting"
 url = "https://medibangpaint.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "MediBang.Paint.Pro-29.1.exe"
@@ -1959,13 +2040,13 @@ desc = "Mendeley Desktop reference manager"
 url = "https://www.mendeley.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "MendeleyDesktop-1.19.8.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/MendeleyDesktop-1.19.8.tani"
-installer_flavor = ""
+installer_flavor = "/S"
 source = "tanirepo"
 
 [packages.deps]
@@ -1986,7 +2067,7 @@ desc = "MiniTool Partition Wizard"
 url = "https://www.minitool.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "MiniTool.Partition.Wizard-13.6.exe"
@@ -2013,7 +2094,7 @@ desc = "MiniTool Power Data Recovery"
 url = "https://www.minitool.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "MiniTool.Power.Data.Recovery-12.9.exe"
@@ -2040,7 +2121,7 @@ desc = "MiniTool ShadowMaker backup software"
 url = "https://www.minitool.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "MiniTool.ShadowMaker-3.6.exe"
@@ -2067,7 +2148,7 @@ desc = "Nero 2015 Express disc burning"
 url = "https://www.nero.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Nero2015-BROM-Express-16.0.24000.exe"
@@ -2094,13 +2175,13 @@ desc = "NetLimiter internet traffic control"
 url = "https://www.netlimiter.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "NetLimiter-5.3.26.0.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/NetLimiter-5.3.26.0.tani"
-installer_flavor = ""
+installer_flavor = "/S /I"
 source = "tanirepo"
 
 [packages.deps]
@@ -2121,13 +2202,13 @@ desc = "Nitro Pro PDF Editor"
 url = "https://www.gonitro.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Nitro.Pro.14.17.2.29.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Nitro.Pro.14.17.2.29.tani"
-installer_flavor = ""
+installer_flavor = "/VERYSILENT"
 source = "tanirepo"
 
 [packages.deps]
@@ -2148,7 +2229,7 @@ desc = "Office Tab Enterprise tabs for Microsoft Office"
 url = "https://www.extendoffice.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Office.Tab.Enterprise.v14.00.exe"
@@ -2167,15 +2248,15 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "pdf-xchange-editor-plus"
+name = "pdf-xchange-editor-plus-11"
 version = "11.0.1.0"
 pkgrel = 1
 arch = "x86_64"
-desc = "PDF-XChange Editor Plus"
+desc = "PDF-XChange Editor Plus 11"
 url = "https://www.tracker-software.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "PDF-XChange.Editor.Plus.v11.0.1.0.exe"
@@ -2194,15 +2275,15 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "pdf-xchange-editor-plus9"
+name = "pdf-xchange-editor-plus-9"
 version = "9.5.365.0"
 pkgrel = 1
 arch = "x86_64"
-desc = "PDF-XChange Editor Plus"
+desc = "PDF-XChange Editor Plus 9"
 url = "https://www.tracker-software.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "PDF-XChange.Editor.Plus.v9.5.365.0.exe"
@@ -2221,15 +2302,15 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "pdf-xchange-pro"
+name = "pdf-xchange-pro-11"
 version = "11.0.1.0"
 pkgrel = 1
 arch = "x86_64"
-desc = "PDF-XChange PRO"
+desc = "PDF-XChange PRO 11"
 url = "https://www.tracker-software.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "PDF-XChange.PRO.v11.0.1.0.exe"
@@ -2248,15 +2329,15 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "pdf-xchange-pro9"
+name = "pdf-xchange-pro-9"
 version = "9.5.365.0"
 pkgrel = 1
 arch = "x86_64"
-desc = "PDF-XChange PRO"
+desc = "PDF-XChange PRO 9"
 url = "https://www.tracker-software.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "PDF-XChange.PRO.v9.5.365.0.exe"
@@ -2283,13 +2364,13 @@ desc = "PowerISO CD/DVD/BD image file processing"
 url = "https://www.poweriso.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "PowerISO.v9.4.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/PowerISO.v9.4.tani"
-installer_flavor = ""
+installer_flavor = "/S"
 source = "tanirepo"
 
 [packages.deps]
@@ -2310,7 +2391,7 @@ desc = "Recuva file recovery utility"
 url = "https://www.ccleaner.com/recuva"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Recuva-1.55.0.133.exe"
@@ -2329,21 +2410,21 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "revo-uninstaller-pro"
-version = "5.5.0"
+name = "revo-uninstaller-pro-3"
+version = "3.2.1"
 pkgrel = 1
 arch = "x86_64"
-desc = "Revo Uninstaller Pro"
+desc = "Revo Uninstaller Pro 3"
 url = "https://www.revouninstaller.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
-main_exe = "Revo.Uninstaller.Pro.v5.5.0.exe"
+main_exe = "Revo.Uninstaller.Pro.v3.2.1.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Revo.Uninstaller.Pro.v5.5.0.tani"
-installer_flavor = ""
+installer_url = "https://pub.moedev.eu.org/Petani/Revo.Uninstaller.Pro.v3.2.1.tani"
+installer_flavor = "/S /I"
 source = "tanirepo"
 
 [packages.deps]
@@ -2356,21 +2437,21 @@ provides = []
 [[packages]]
 
 [packages.package]
-name = "revo-uninstaller-pro3"
-version = "3.2.1"
+name = "revo-uninstaller-pro-5"
+version = "5.5.0"
 pkgrel = 1
 arch = "x86_64"
-desc = "Revo Uninstaller Pro"
+desc = "Revo Uninstaller Pro 5"
 url = "https://www.revouninstaller.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
-main_exe = "Revo.Uninstaller.Pro.v3.2.1.exe"
+main_exe = "Revo.Uninstaller.Pro.v5.5.0.exe"
 installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/Revo.Uninstaller.Pro.v3.2.1.tani"
-installer_flavor = ""
+installer_url = "https://pub.moedev.eu.org/Petani/Revo.Uninstaller.Pro.v5.5.0.tani"
+installer_flavor = "/S /I"
 source = "tanirepo"
 
 [packages.deps]
@@ -2391,40 +2472,13 @@ desc = "Shadow Defender system protection"
 url = "http://www.shadowdefender.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Shadow.Defender-1.5.0.726.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/Shadow.Defender-1.5.0.726.tani"
-installer_flavor = ""
-source = "tanirepo"
-
-[packages.deps]
-requires = []
-optional = []
-conflicts = []
-replaces = []
-provides = []
-
-[[packages]]
-
-[packages.package]
-name = "sketchup-pro"
-version = "26.2.243"
-pkgrel = 1
-arch = "x86_64"
-desc = "SketchUp Pro 3D Modeling"
-url = "https://www.sketchup.com"
-license = "Commercial"
-size = 0
-builddate = 1792730995
-packager = "tetotani"
-product_code = ""
-main_exe = "SketchUp.Pro.v26.2.243.exe"
-installer_type = "exe"
-installer_url = "https://pub.moedev.eu.org/Petani/SketchUp.Pro.v26.2.243.tani"
-installer_flavor = ""
+installer_flavor = "/VERYSILENT /NORESTART"
 source = "tanirepo"
 
 [packages.deps]
@@ -2441,16 +2495,43 @@ name = "sketchup-pro-2023"
 version = "23.1.340"
 pkgrel = 1
 arch = "x86_64"
-desc = "SketchUp Pro 3D Modeling"
+desc = "SketchUp Pro 2023 3D Modeling"
 url = "https://www.sketchup.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "SketchUp.Pro.v23.1.340.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/SketchUp.Pro.v23.1.340.tani"
+installer_flavor = ""
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "sketchup-pro-2026"
+version = "26.2.243"
+pkgrel = 1
+arch = "x86_64"
+desc = "SketchUp Pro 2026 3D Modeling"
+url = "https://www.sketchup.com"
+license = "Commercial"
+size = 0
+builddate = 1792763485
+packager = "tetotani"
+product_code = ""
+main_exe = "SketchUp.Pro.v26.2.243.exe"
+installer_type = "exe"
+installer_url = "https://pub.moedev.eu.org/Petani/SketchUp.Pro.v26.2.243.tani"
 installer_flavor = ""
 source = "tanirepo"
 
@@ -2472,7 +2553,7 @@ desc = "Stardock Curtains Windows customization"
 url = "https://www.stardock.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Stardock.Curtains-1.19.1.exe"
@@ -2499,7 +2580,7 @@ desc = "Stardock Fences desktop organizer"
 url = "https://www.stardock.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Stardock.Fences-6.46.exe"
@@ -2526,7 +2607,7 @@ desc = "Stardock Start10 Start Menu customization"
 url = "https://www.stardock.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Stardock_Start10-1.97.exe"
@@ -2553,7 +2634,7 @@ desc = "Stardock Start11 Start Menu customization"
 url = "https://www.stardock.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Stardock.Start11-2.73.exe"
@@ -2580,7 +2661,7 @@ desc = "Subway Surfers PC game"
 url = "https://sybogames.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "Subway.Surfers.exe"
@@ -2607,13 +2688,13 @@ desc = "TeraCopy Pro file copy utility"
 url = "https://www.codesector.com/teracopy"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "TeraCopy.Pro.v3.17.0.0.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/TeraCopy.Pro.v3.17.0.0.tani"
-installer_flavor = ""
+installer_flavor = "/S"
 source = "tanirepo"
 
 [packages.deps]
@@ -2634,7 +2715,7 @@ desc = "VMware Workstation 15 Pro"
 url = "https://www.vmware.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "VMware.Workstation.15.Pro.v15.5.6.16341506.exe"
@@ -2661,7 +2742,7 @@ desc = "VMware Workstation 16 Pro"
 url = "https://www.vmware.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "VMware.Workstation.16.Pro.v16.2.4.20089737.exe"
@@ -2688,13 +2769,40 @@ desc = "VMware Workstation 17 Pro"
 url = "https://www.vmware.com"
 license = "Commercial"
 size = 0
-builddate = 1792730995
+builddate = 1792763485
 packager = "tetotani"
 product_code = ""
 main_exe = "VMware.Workstation.17.Pro.v17.5.0.22583795.exe"
 installer_type = "exe"
 installer_url = "https://pub.moedev.eu.org/Petani/VMware.Workstation.17.Pro.v17.5.0.22583795.tani"
-installer_flavor = ""
+installer_flavor = "/S"
+source = "tanirepo"
+
+[packages.deps]
+requires = []
+optional = []
+conflicts = []
+replaces = []
+provides = []
+
+[[packages]]
+
+[packages.package]
+name = "vmware-workstation-pro-26h1"
+version = "26.0.0.25388281"
+pkgrel = 1
+arch = "x86_64"
+desc = "VMware Workstation Pro 26H1"
+url = "https://www.vmware.com"
+license = "Commercial"
+size = 0
+builddate = 1792763485
+packager = "tetotani"
+product_code = ""
+main_exe = "vmware.exe"
+installer_type = "exe"
+installer_url = "https://pasted.sh/file/we6b.tani"
+installer_flavor = "/S"
 source = "tanirepo"
 
 [packages.deps]

@@ -1,12 +1,12 @@
 pkgname=adobe-acrobat-pro-2025
-version=1.0.0
+version=2025.001.21184
 revision=1
-short_desc="Adobe.Acrobat.Pro.v2025.001.21184"
+short_desc="Adobe Acrobat Pro 2025"
 maintainer="Iqbal Rifai <yukifag@proton.me>"
 license="Commercial"
-homepage="https://pub.moedev.eu.org/Petani"
+homepage="https://www.adobe.com/acrobat"
 distfiles="https://pub.moedev.eu.org/Petani/Adobe.Acrobat.Pro.v2025.001.21184.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe=""
+main_exe="Adobe.Acrobat.Pro.v2025.001.21184.exe"
