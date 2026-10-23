@@ -40,7 +40,6 @@ def get_pkg_version_key(pkg_entry: dict):
 
 def read_pkginfo(tetopkg_path: str) -> dict:
     """Extract .PKGINFO.toml dari dalam arsip .tetopkg (tar + zstd)."""
-    # decompress zstd -> tar stream, lalu ambil file .PKGINFO.toml
     result = subprocess.run(
         f"zstd -dc '{tetopkg_path}' | tar -xO --wildcards '.PKGINFO.toml'",
         shell=True, capture_output=True, check=True
@@ -63,20 +62,60 @@ def main():
     parser.add_argument("repo_name", help="Repository name")
     parser.add_argument("repo_desc", help="Repository description")
     parser.add_argument(
+        "--srcpkgs",
+        default="srcpkgs",
+        help="Path to srcpkgs directory to filter valid packages",
+    )
+    parser.add_argument(
+        "--prune-files",
+        action="store_true",
+        default=False,
+        help="Delete .tetopkg files from disk if their package is not in srcpkgs",
+    )
+    parser.add_argument(
         "--keep-all-versions",
         action="store_true",
         default=False,
         help="Disable deduplication and keep all package versions in index.toml",
     )
+    parser.add_argument(
+        "--repo-url",
+        default="https://petani.repository.eu.org/x86_64/",
+        help="Repository base URL",
+    )
 
     args = parser.parse_args()
 
+    valid_pkgs = set()
+    if os.path.isdir(args.srcpkgs):
+        valid_pkgs = {
+            d for d in os.listdir(args.srcpkgs)
+            if os.path.isfile(os.path.join(args.srcpkgs, d, "template"))
+        }
+        print(f":: Loaded {len(valid_pkgs)} valid package templates from {args.srcpkgs}")
+
     raw_packages = []
     for pkg_path in sorted(glob.glob(os.path.join(args.repo_dir, "*.tetopkg"))):
-        print(f":: Reading {pkg_path}")
-        info = read_pkginfo(pkg_path)
+        try:
+            info = read_pkginfo(pkg_path)
+        except Exception as e:
+            print(f":: [ERROR] Failed to read {pkg_path}: {e}")
+            continue
+
         pkg = info["package"]
         deps = info.get("deps", {})
+        pkg_name = pkg["name"]
+
+        # If srcpkgs is present, filter out packages that were deleted/renamed
+        if valid_pkgs and pkg_name not in valid_pkgs:
+            print(f":: [ORPHAN] Skipping '{pkg_name}' (not in {args.srcpkgs})")
+            if args.prune_files:
+                print(f":: [PRUNE] Deleting orphaned file {pkg_path}")
+                try:
+                    os.remove(pkg_path)
+                except Exception as e:
+                    print(f":: [WARN] Failed to delete {pkg_path}: {e}")
+            continue
 
         raw_packages.append({
             "package": {
@@ -122,7 +161,7 @@ def main():
         "meta": {
             "name": args.repo_name,
             "description": args.repo_desc,
-            "url": "",
+            "url": args.repo_url,
             "generated": int(time.time()),
         },
         "packages": packages,
