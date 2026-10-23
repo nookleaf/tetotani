@@ -1,0 +1,12 @@
+pkgname=nero-2015-express
+version=16.0.24000
+revision=1
+short_desc="Nero 2015 Express disc burning"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.nero.com"
+distfiles="https://pub.moedev.eu.org/Petani/Nero2015-BROM-Express-16.0.24000.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="NeroExpress.exe"

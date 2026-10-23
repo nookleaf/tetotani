@@ -1,0 +1,12 @@
+pkgname=gamehouse-super-games-aio
+version=1.0.0
+revision=1
+short_desc="64 GameHouse Super Games All-In-One"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://pub.moedev.eu.org/Petani"
+distfiles="https://pub.moedev.eu.org/Petani/64.GameHouse.Super.Games.AIO-79208609-FD44-4865-AE2B-784FDF31212C.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="GameHouse.exe"

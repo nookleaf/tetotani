@@ -1,0 +1,12 @@
+pkgname=adobe-after-effects-2019
+version=16.1.3.5
+revision=1
+short_desc="Adobe After Effects 2019"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.adobe.com/products/aftereffects"
+distfiles="https://pub.moedev.eu.org/Petani/Adobe.After.Effects-2019.16.1.3.5.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="AfterFX.exe"

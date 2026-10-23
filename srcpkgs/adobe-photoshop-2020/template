@@ -1,0 +1,12 @@
+pkgname=adobe-photoshop-2020
+version=21.2.12.215
+revision=1
+short_desc="Adobe Photoshop 2020"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.adobe.com/products/photoshop"
+distfiles="https://pub.moedev.eu.org/Petani/Adobe.Photoshop-2020.21.2.12.215.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Photoshop.exe"

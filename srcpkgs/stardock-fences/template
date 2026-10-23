@@ -1,0 +1,12 @@
+pkgname=stardock-fences
+version=6.46
+revision=1
+short_desc="Stardock Fences desktop organizer"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.stardock.com"
+distfiles="https://pub.moedev.eu.org/Petani/Stardock.Fences-6.46.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Fences.exe"

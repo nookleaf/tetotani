@@ -1,12 +1,12 @@
 pkgname=recuva
 version=1.55.0.133
 revision=1
-short_desc="Recuva file recovery tool"
+short_desc="Recuva file recovery utility"
 maintainer="Iqbal Rifai <yukifag@proton.me>"
-license="Freeware"
+license="Commercial"
 homepage="https://www.ccleaner.com/recuva"
-distfiles="https://pasted.sh/file/w4gR.tani"
+distfiles="https://pub.moedev.eu.org/Petani/Recuva-1.55.0.133.tani"
 installer_type="exe"
 installer_flavor=''
 arch="x86_64"
-main_exe="recuva.exe"
+main_exe="recuva64.exe"

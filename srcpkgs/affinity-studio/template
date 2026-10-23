@@ -1,0 +1,12 @@
+pkgname=affinity-studio
+version=3.2.3.4646
+revision=1
+short_desc="Affinity Studio Photo & Designer Suite"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://affinity.serif.com"
+distfiles="https://pub.moedev.eu.org/Petani/Affinity.Studio-3.2.3.4646.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Designer.exe"

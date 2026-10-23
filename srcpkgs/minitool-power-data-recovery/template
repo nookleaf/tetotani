@@ -1,0 +1,12 @@
+pkgname=minitool-power-data-recovery
+version=12.9
+revision=1
+short_desc="MiniTool Power Data Recovery"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.minitool.com"
+distfiles="https://pub.moedev.eu.org/Petani/MiniTool.Power.Data.Recovery-12.9.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="PowerDataRecovery.exe"

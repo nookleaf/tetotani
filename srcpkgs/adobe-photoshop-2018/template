@@ -1,0 +1,12 @@
+pkgname=adobe-photoshop-2018
+version=19.1.6.5940
+revision=1
+short_desc="Adobe Photoshop CC 2018"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.adobe.com/products/photoshop"
+distfiles="https://pub.moedev.eu.org/Petani/Adobe.PhotoshopCC-2018.19.1.6.5940_x64.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Photoshop.exe"

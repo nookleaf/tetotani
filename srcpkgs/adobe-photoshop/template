@@ -1,0 +1,12 @@
+pkgname=adobe-photoshop
+version=23.5.5.1103
+revision=1
+short_desc="Adobe Photoshop 2022"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.adobe.com/products/photoshop"
+distfiles="https://pub.moedev.eu.org/Petani/Adobe.Photoshop.2022.v23.5.5.1103.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Photoshop.exe"

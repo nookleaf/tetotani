@@ -1,11 +1,11 @@
 pkgname=format-factory4
 version=4.10.5.0
 revision=1
-short_desc="Format Factory 4 multimedia converter"
+short_desc="Format Factory Media Converter"
 maintainer="Iqbal Rifai <yukifag@proton.me>"
-license="Freeware"
+license="Commercial"
 homepage="http://www.pcfreetime.com"
-distfiles="https://pasted.sh/file/N2fo.tani"
+distfiles="https://pub.moedev.eu.org/Petani/Format.Factory-4.10.5.0.tani"
 installer_type="exe"
 installer_flavor='/VERYSILENT /I /EN'
 arch="x86_64"

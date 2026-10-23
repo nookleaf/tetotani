@@ -1,0 +1,12 @@
+pkgname=stardock-start10
+version=1.97
+revision=1
+short_desc="Stardock Start10 Start Menu customization"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.stardock.com"
+distfiles="https://pub.moedev.eu.org/Petani/Stardock_Start10-1.97.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Start10.exe"

@@ -1,11 +1,11 @@
 pkgname=hard-disk-sentinel-pro
 version=6.40.13782
 revision=1
-short_desc="Hard Disk Sentinel Pro"
+short_desc="Hard Disk Sentinel Pro HDD/SSD monitoring"
 maintainer="Iqbal Rifai <yukifag@proton.me>"
-license="Shareware"
+license="Commercial"
 homepage="https://www.hdsentinel.com"
-distfiles="https://pasted.sh/file/JCF4.tani"
+distfiles="https://pub.moedev.eu.org/Petani/Hard.Disk.Sentinel.Pro.v6.40.13782.tani"
 installer_type="exe"
 installer_flavor='/S /I'
 arch="x86_64"

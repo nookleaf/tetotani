@@ -1,0 +1,12 @@
+pkgname=foxit-pdf-editor-pro
+version=13.2.0.23874
+revision=1
+short_desc="Foxit PDF Editor Pro"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.foxit.com/pdf-editor"
+distfiles="https://pub.moedev.eu.org/Petani/FoxitPDFEditor.Pro-13.2.0.23874.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="FoxitPDFEditor.exe"

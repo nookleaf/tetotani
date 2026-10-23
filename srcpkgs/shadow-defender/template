@@ -1,12 +1,12 @@
 pkgname=shadow-defender
 version=1.5.0.726
 revision=1
-short_desc="Shadow Defender security solution"
+short_desc="Shadow Defender system protection"
 maintainer="Iqbal Rifai <yukifag@proton.me>"
-license="Shareware"
+license="Commercial"
 homepage="http://www.shadowdefender.com"
-distfiles="https://pasted.sh/file/qOSt.tani"
+distfiles="https://pub.moedev.eu.org/Petani/Shadow.Defender-1.5.0.726.tani"
 installer_type="exe"
 installer_flavor='/VERYSILENT /NORESTART'
 arch="x86_64"
-main_exe="DefenderDaemon.exe"
+main_exe="Defender.exe"

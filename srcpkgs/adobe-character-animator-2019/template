@@ -1,0 +1,12 @@
+pkgname=adobe-character-animator-2019
+version=2.1.1.7
+revision=1
+short_desc="Adobe Character Animator CC 2019"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.adobe.com/products/character-animator"
+distfiles="https://pub.moedev.eu.org/Petani/Adobe.Character.AnimatorCC-2019.2.1.1.7.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Character Animator.exe"

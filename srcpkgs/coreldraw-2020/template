@@ -1,0 +1,12 @@
+pkgname=coreldraw-2020
+version=22.2.0.532
+revision=1
+short_desc="CorelDRAW Graphics Suite 2020"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://www.coreldraw.com"
+distfiles="https://pub.moedev.eu.org/Petani/CorelDRAWGS2020-22.2.0.532.tani"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="CorelDRW.exe"
