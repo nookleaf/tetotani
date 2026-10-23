@@ -7,6 +7,6 @@ license="Commercial"
 homepage="https://www.iobit.com/driver-booster.php"
 distfiles="https://pub.moedev.eu.org/Petani/Driver.Booster-13.5.1.400.tani"
 installer_type="exe"
-installer_flavor='/VERYSILENT /NORESTART /TASKS="desktopicon"'
+installer_flavor='/VERYSILENT /NORESTART /TASKS=desktopicon'
 arch="x86_64"
 main_exe="Driver.Booster-13.5.1.400.exe"
