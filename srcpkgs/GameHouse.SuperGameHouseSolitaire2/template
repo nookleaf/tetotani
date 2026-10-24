@@ -7,6 +7,6 @@ license="Freeware"
 homepage="https://pub.moedev.eu.org/Games"
 distfiles="https://pub.moedev.eu.org/Games/Gamehouse.Super.Gamehouse.Solitaire2.exe"
 installer_type="exe"
-installer_flavor=''
+installer_flavor='/S'
 arch="x86_64"
 main_exe="Gamehouse.Super.Gamehouse.Solitaire2.exe"
