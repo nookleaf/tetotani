@@ -1,0 +1,12 @@
+pkgname=GameHouse.FeedingFrenzy
+version=1.0.0
+revision=1
+short_desc="GameHouse / PopCap - Feeding Frenzy"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Freeware"
+homepage="https://pub.moedev.eu.org/Games"
+distfiles="https://pub.moedev.eu.org/Games/Gamehouse.Feeding.Frenzy.exe"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Gamehouse.Feeding.Frenzy.exe"

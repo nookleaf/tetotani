@@ -1,0 +1,12 @@
+pkgname=GameHouse.IgglePop
+version=1.0.0
+revision=1
+short_desc="GameHouse - Iggle Pop"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Freeware"
+homepage="https://pub.moedev.eu.org/Games"
+distfiles="https://pub.moedev.eu.org/Games/Gamehouse.Iggle.Pop.exe"
+installer_type="exe"
+installer_flavor=''
+arch="x86_64"
+main_exe="Gamehouse.Iggle.Pop.exe"
