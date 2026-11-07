@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 gen-index.py — Generate index.toml dari kumpulan file .tetopkg di suatu folder.
-Format mengikuti struct RepoIndex/RepoMeta/RepoPackage di crates/teto-repo-common/src/index.rs
+Format mengikuti struct RepoIndex/RepoMeta di crates/teto-repo/src/index.rs
 """
 import sys
 import os
@@ -18,16 +18,12 @@ try:
     from packaging.version import parse as parse_version
 except ImportError:
     def parse_version(ver_str: str):
-        """Fallback version parser extracting numeric tuple components."""
         nums = [int(n) for n in re.findall(r'\d+', str(ver_str))]
         if nums:
             return tuple(nums)
         return (str(ver_str),)
 
 def get_pkg_version_key(pkg_entry: dict):
-    """
-    Computes a comparable tuple (version_key, pkgrel) for sorting and deduplicating packages.
-    """
     pkg = pkg_entry["package"]
     ver = pkg.get("version", "0.0.0")
     pkgrel = pkg.get("pkgrel", 1)
@@ -98,79 +94,103 @@ def main():
     for pkg_path in sorted(glob.glob(os.path.join(args.repo_dir, "*.tetopkg"))):
         try:
             info = read_pkginfo(pkg_path)
+            pkg = info.get("package", {})
+            deps = info.get("deps", {})
+            pkg_name = pkg.get("name", "")
+
+            # Filter against srcpkgs if provided
+            if valid_pkgs and pkg_name not in valid_pkgs:
+                print(f":: Package '{pkg_name}' not found in srcpkgs templates.")
+                if args.prune_files:
+                    try:
+                        os.remove(pkg_path)
+                        print(f":: Deleted unreferenced file: {pkg_path}")
+                    except OSError as e:
+                        print(f"[ERROR] Failed to delete {pkg_path}: {e}")
+                else:
+                    print(f":: Skipping '{pkg_name}' (use --prune-files to remove from storage)")
+                continue
+
+            print(f":: Reading {pkg_path}")
+            raw_packages.append({
+                "package": {
+                    "name": pkg_name,
+                    "version": str(pkg.get("version", "1.0.0")),
+                    "pkgrel": int(pkg.get("pkgrel", 1)),
+                    "arch": str(pkg.get("arch", "x86_64")),
+                    "desc": str(pkg.get("desc", "")),
+                    "url": str(pkg.get("url", "")),
+                    "license": str(pkg.get("license", "Unknown")),
+                    "size": int(os.path.getsize(pkg_path)),
+                    "builddate": int(pkg.get("builddate", int(time.time()))),
+                    "packager": str(pkg.get("packager", "gen-index")),
+                    "product_code": str(pkg.get("product_code", "")),
+                    "main_exe": str(pkg.get("main_exe", "")),
+                    "shortcut_name": str(pkg.get("shortcut_name", pkg_name)),
+                    "installer_type": str(pkg.get("installer_type", "exe")),
+                    "installer_url": str(pkg.get("installer_url", "")),
+                    "installer_sha256": str(pkg.get("installer_sha256", "")),
+                    "installer_flavor": str(pkg.get("installer_flavor", "")),
+                },
+                "deps": {
+                    "requires": deps.get("requires", deps.get("depends", [])),
+                    "optional": deps.get("optional", []),
+                    "conflicts": deps.get("conflicts", []),
+                    "replaces": deps.get("replaces", []),
+                    "provides": deps.get("provides", []),
+                },
+            })
         except Exception as e:
-            print(f":: [ERROR] Failed to read {pkg_path}: {e}")
-            continue
+            print(f"[ERROR] Failed to read {pkg_path}: {e}", file=sys.stderr)
 
-        pkg = info["package"]
-        deps = info.get("deps", {})
-        pkg_name = pkg["name"]
-
-        # If srcpkgs is present, filter out packages that were deleted/renamed
-        if valid_pkgs and pkg_name not in valid_pkgs:
-            print(f":: [ORPHAN] Skipping '{pkg_name}' (not in {args.srcpkgs})")
-            if args.prune_files:
-                print(f":: [PRUNE] Deleting orphaned file {pkg_path}")
-                try:
-                    os.remove(pkg_path)
-                except Exception as e:
-                    print(f":: [WARN] Failed to delete {pkg_path}: {e}")
-            continue
-
-        raw_packages.append({
-            "package": {
-                "name": pkg["name"],
-                "version": pkg["version"],
-                "pkgrel": pkg.get("pkgrel", 1),
-                "arch": pkg["arch"],
-                "desc": pkg["desc"],
-                "url": pkg["url"],
-                "license": pkg["license"],
-                "size": pkg.get("size", 0),
-                "builddate": pkg.get("builddate", int(time.time())),
-                "packager": pkg.get("packager", "gen-index"),
-            },
-            "deps": {
-                "requires": deps.get("requires", []),
-                "optional": deps.get("optional", []),
-                "conflicts": deps.get("conflicts", []),
-                "provides": deps.get("provides", []),
-            },
-        })
-
-    # Deduplikasi dilakukan per package name agar index.toml hanya berisi
-    # versi tertinggi per package secara default. Jika folder repo menyimpan multiple build lama,
-    # tanpa deduplikasi semua versi akan masuk index.toml dan dapat menyebabkan client resolver
-    # salah memilih versi lama. Gunakan --keep-all-versions jika ingin mengekspos semua versi.
-    if not args.keep_all_versions:
-        grouped = {}
-        for pkg_entry in raw_packages:
-            name = pkg_entry["package"]["name"]
-            if name not in grouped:
-                grouped[name] = pkg_entry
-            else:
-                existing_key = get_pkg_version_key(grouped[name])
-                new_key = get_pkg_version_key(pkg_entry)
-                if new_key > existing_key:
-                    grouped[name] = pkg_entry
-        packages = list(grouped.values())
+    if args.keep_all_versions:
+        filtered_packages = raw_packages
     else:
-        packages = raw_packages
+        # Group by package name and retain only the highest version
+        grouped_packages = {}
+        for entry in raw_packages:
+            name = entry["package"]["name"]
+            grouped_packages.setdefault(name, []).append(entry)
 
-    index = {
+        filtered_packages = []
+        for name, entries in grouped_packages.items():
+            if len(entries) == 1:
+                filtered_packages.append(entries[0])
+            else:
+                entries.sort(key=get_pkg_version_key)
+                highest = entries[-1]
+                pruned = entries[:-1]
+                filtered_packages.append(highest)
+                print(f":: Deduplicating '{name}': keeping version {highest['package']['version']} (rel {highest['package']['pkgrel']})")
+                for p in pruned:
+                    if args.prune_files:
+                        p_file = os.path.join(args.repo_dir, f"{p['package']['name']}-{p['package']['version']}-{p['package']['pkgrel']}-{p['package']['arch']}.tetopkg")
+                        if os.path.isfile(p_file):
+                            try:
+                                os.remove(p_file)
+                                print(f"   -> Deleted older file: {p_file}")
+                            except OSError as e:
+                                print(f"[ERROR] Failed to delete older file {p_file}: {e}")
+
+    # Urutkan berdasarkan nama paket
+    filtered_packages.sort(key=lambda p: p["package"]["name"])
+
+    repo_url = args.repo_url.rstrip("/") + "/"
+    index_data = {
         "meta": {
             "name": args.repo_name,
             "description": args.repo_desc,
-            "url": args.repo_url,
+            "url": repo_url,
             "generated": int(time.time()),
         },
-        "packages": packages,
+        "packages": filtered_packages,
     }
 
+    os.makedirs(os.path.dirname(os.path.abspath(args.output_path)), exist_ok=True)
     with open(args.output_path, "wb") as f:
-        tomli_w.dump(index, f)
+        tomli_w.dump(index_data, f)
 
-    print(f":: Wrote {args.output_path} ({len(packages)} packages)")
+    print(f":: Done! Generated {args.output_path} with {len(filtered_packages)} package(s)")
 
 if __name__ == "__main__":
     main()

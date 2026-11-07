@@ -1,0 +1,12 @@
+pkgname=vmware-workstation-pro-25h2
+version=25.0.1.25219725
+revision=1
+short_desc="VMware Workstation Pro 25H2"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://pub.moedev.eu.org/Petani/"
+distfiles="https://pub.moedev.eu.org/Petani/VMware.Workstation.Pro.25H2u1.v25.0.1.25219725.tani"
+installer_type="exe"
+installer_flavor='/S'
+arch="x86_64"
+main_exe="vmware.exe"

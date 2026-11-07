@@ -1,0 +1,12 @@
+pkgname=wps-office-2016
+version=10.2.0.7646
+revision=1
+short_desc="WPS Office 2016 Premium"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://pub.moedev.eu.org/Petani/"
+distfiles="https://pub.moedev.eu.org/Petani/WPS.Office.2016.Premium-10.2.0.7646.tani"
+installer_type="exe"
+installer_flavor='/S'
+arch="x86_64"
+main_exe="wps.exe"

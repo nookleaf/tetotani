@@ -1,0 +1,12 @@
+pkgname=vuescan
+version=9.8.38
+revision=1
+short_desc="VueScan Professional scanner software"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://pub.moedev.eu.org/Petani/"
+distfiles="https://pub.moedev.eu.org/Petani/VueScan-9.8.38.tani"
+installer_type="exe"
+installer_flavor='/S'
+arch="x86_64"
+main_exe="vuescan.exe"

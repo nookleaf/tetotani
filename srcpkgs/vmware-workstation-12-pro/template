@@ -1,0 +1,12 @@
+pkgname=vmware-workstation-12-pro
+version=12.5.9.7535481
+revision=1
+short_desc="VMware Workstation 12 Pro"
+maintainer="Iqbal Rifai <yukifag@proton.me>"
+license="Commercial"
+homepage="https://pub.moedev.eu.org/Petani/"
+distfiles="https://pub.moedev.eu.org/Petani/VMware.Workstation.v12.5.9.7535481.tani"
+installer_type="exe"
+installer_flavor='/S'
+arch="x86_64"
+main_exe="vmware.exe"
